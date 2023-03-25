@@ -1,19 +1,19 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 
 public class Entity
-{       public int Id { get; private set; }
-        private static int NextId = 0;
-        private Dictionary<Type, IComponent> _components;
+{
+    public int Id { get; private set; }
+    private static int NextId = 0;
+    private Dictionary<Type, IComponent> _components;
 
-        public Entity()
-        {
-            Id = NextId++;
-            _components = new Dictionary<Type, IComponent>();
-        }
+    public Entity()
+    {
+        Id = NextId++;
+        _components = new Dictionary<Type, IComponent>();
+    }
 
-        public T GetComponent<T>() where T : IComponent
+    public T GetComponent<T>() where T : IComponent
     {
         if (_components.TryGetValue(typeof(T), out IComponent component))
         {
@@ -26,5 +26,10 @@ public class Entity
     public void AddComponent<T>(T component) where T : IComponent
     {
         _components[typeof(T)] = component;
+    }
+
+    public bool HasComponent<T>() where T : IComponent
+    {
+        return _components.ContainsKey(typeof(T));
     }
 }
