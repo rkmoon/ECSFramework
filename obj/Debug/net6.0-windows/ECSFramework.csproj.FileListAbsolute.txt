@@ -1,0 +1,12 @@
+C:\Users\Ryan\source\repos\ECSFramework\bin\Debug\net6.0-windows\ECSFramework.deps.json
+C:\Users\Ryan\source\repos\ECSFramework\bin\Debug\net6.0-windows\ECSFramework.dll
+C:\Users\Ryan\source\repos\ECSFramework\bin\Debug\net6.0-windows\ECSFramework.pdb
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\ECSFramework.csproj.AssemblyReference.cache
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\ECSFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\ECSFramework.AssemblyInfoInputs.cache
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\ECSFramework.AssemblyInfo.cs
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\ECSFramework.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\ECSFramework.dll
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\refint\ECSFramework.dll
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\ECSFramework.pdb
+C:\Users\Ryan\source\repos\ECSFramework\obj\Debug\net6.0-windows\ref\ECSFramework.dll
